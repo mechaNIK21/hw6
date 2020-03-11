@@ -1,0 +1,45 @@
+.regForm {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  padding: 15px;
+
+  .inputForm {
+    margin-top: 20px;
+    width: 100%;
+
+    textarea {
+      height: 100px;
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #9e9e9e;
+      border-radius: 5px;
+    }
+  }
+  .inputForm.labelForForm {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      border: 1px solid #8b8b8b;
+      border-radius: 5px;
+      padding: 5px;
+    }
+  }
+  .inputForm.buttonHolder {
+    button {
+      width: 50%;
+      background-color: #00b7ff;
+      border: solid #00b7ff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #f30606;
+    }
+  }
+}
